@@ -77,12 +77,31 @@ li .details {
 
 .details p {
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 21px;
     padding-left: 12px;
 }
 
 /* ADICIONAIS */
-#adicionais .details h3 {
-    text-transform: lowercase;
+#adicionais li {
+    display: flex;
+    justify-content: space-between;
+}
+
+#adicionais li strong {
+    padding-right: 14px;
+}
+
+/* BEBIDAS */
+#bebidas li{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bebidas li strong {
+    padding-right: 14px;
+}
+
+#bebidas li div span {
+    font-size: 14px;
 }
